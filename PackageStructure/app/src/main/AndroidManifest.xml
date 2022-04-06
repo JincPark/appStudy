@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PackageStructure">
+        <!-- icon : res\mipmap에 아이콘으로 사용할 이미지 저장 후 선택
+             label : 모바일에서 어플의 레이블 설정 - control+click 하면 strings.xml로 넘어가짐. 그 후 이름 변경
+             roundIcon : 안드로이드에서 제공하는 원 모양의 아이콘
+             theme : 어플 테마 색상 설정. ctrl+click 으로 변경
+        -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -16,6 +21,8 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+                <!-- 시작시 어떤 화면이 실행되는지 설정하는 것. 만약 이를 다른 activity안에 넣으면 어플 실행시 그 activity가 먼저 보이게됨 -->
+
             </intent-filter>
         </activity>
     </application>
