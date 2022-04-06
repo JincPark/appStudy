@@ -15,4 +15,12 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="64dp" />
+<!-- text를 이런식으로 어플 이름으로 변경도 가능-->
 </androidx.constraintlayout.widget.ConstraintLayout>
