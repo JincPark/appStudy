@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PackageStructure</string>
+    <!-- app_name의 오른쪽 에 사용하고싶은 앱네임을 설정하면 됨 -->
 </resources>
